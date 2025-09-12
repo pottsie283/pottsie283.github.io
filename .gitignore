@@ -1,2 +1,11 @@
 # Ignore .env file
 .env
+
+# Ignore GitHub workflows and instructions folder
+.github/
+
+# Ignore CV PDF file
+July2025 MP CV.pdf
+
+# Ignore macOS system files
+.DS_Store

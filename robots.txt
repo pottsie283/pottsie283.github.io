@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pottsie283.github.io/sitemap.xml
