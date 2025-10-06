@@ -3,484 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthew Potts - Aspiring Cyber Security Specialist</title>
+    <meta name="description" content="Matthew Potts - Aspiring Cyber Security Specialist">
+    <title>Matthew Potts - Cyber Security Specialist</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#667eea">
-    <meta name="description" content="Matthew Potts - Aspiring Cyber Security Specialist from Birmingham, UK. Information Security, Risk & Compliance, SOC Operations. BCU Computer Science graduate with cybersecurity certifications.">
-    <meta name="keywords" content="Matthew Potts, Cyber Security, Information Security, SOC Operations, Penetration Testing, Python, Kali Linux, Birmingham, BCU">
-    <meta name="author" content="Matthew Potts">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pottsie283.github.io/">
-    <meta property="og:title" content="Matthew Potts - Aspiring Cyber Security Specialist">
-    <meta property="og:description" content="Curious, disciplined, and technically grounded cybersecurity professional. Information Security | Risk & Compliance | SOC Operations.">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://pottsie283.github.io/">
-    <meta property="twitter:title" content="Matthew Potts - Aspiring Cyber Security Specialist">
-    <meta property="twitter:description" content="Curious, disciplined, and technically grounded cybersecurity professional. Information Security | Risk & Compliance | SOC Operations.">
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div id="loading-screen" class="loading-screen">
-        <div class="loader">
-            <div class="loader-circle"></div>
-            <div class="loader-text">Loading...</div>
-        </div>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-text">MP</span>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>Matthew Potts</h1>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link active" data-section="home">
-                        <i class="fas fa-home"></i>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link" data-section="about">
-                        <i class="fas fa-user"></i>
-                        <span>About</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link" data-section="experience">
-                        <i class="fas fa-briefcase"></i>
-                        <span>Experience</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#education" class="nav-link" data-section="education">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>Education</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link" data-section="skills">
-                        <i class="fas fa-code"></i>
-                        <span>Skills</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link" data-section="projects">
-                        <i class="fas fa-project-diagram"></i>
-                        <span>Projects</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link" data-section="contact">
-                        <i class="fas fa-envelope"></i>
-                        <span>Contact</span>
-                    </a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#legal" class="nav-link">Legal</a>
             </div>
-        </div>
-    </nav>
+        </nav>
+        <div class="nav-divider"></div>
+    </header>
 
     <!-- Main Content -->
-    <main class="main-content">
-        <!-- Home Section -->
-        <section id="home" class="section active">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <div class="hero-visual">
-                        <div class="avatar-container">
-                            <div class="avatar">
-                                <i class="fas fa-shield-alt"></i>
-                            </div>
-                            <div class="avatar-glow"></div>
-                        </div>
-                        <div class="floating-elements">
-                            <div class="floating-icon" style="--delay: 0s;">
-                                <i class="fas fa-lock"></i>
-                            </div>
-                            <div class="floating-icon" style="--delay: 1s;">
-                                <i class="fab fa-python"></i>
-                            </div>
-                            <div class="floating-icon" style="--delay: 2s;">
-                                <i class="fab fa-linux"></i>
-                            </div>
-                            <div class="floating-icon" style="--delay: 3s;">
-                                <i class="fas fa-network-wired"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hero-text">
-                        <h1 class="hero-title">
-                            <span class="title-line">Hi, I'm</span>
-                            <span class="title-line name-highlight">Matthew Potts</span>
-                        </h1>
-                        <p class="hero-subtitle">Aspiring Cyber Security Specialist</p>
-                        <p class="hero-description">
-                            Curious, disciplined, and technically grounded, I aim to enter the cybersecurity field with a forward-thinking approach to digital defence. With hands-on experience in secure networking, penetration testing, and Python scripting, I'm passionate about helping organisations build adaptive security environments.
-                        </p>
-                        <div class="hero-buttons">
-                            <button class="btn btn-primary" data-section="about">
-                                <i class="fas fa-user"></i>
-                                About Me
-                            </button>
-                            <button class="btn btn-secondary" data-section="projects">
-                                <i class="fas fa-shield-alt"></i>
-                                View Projects
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
+    <main>
+        <!-- About Me Section -->
         <section id="about" class="section">
             <div class="container">
-                <h2 class="section-title">About Me</h2>
+                <h2>About Me</h2>
                 <div class="about-content">
                     <div class="about-text">
-                        <p class="about-paragraph">
-                            I'm committed to continuous learning and improvement, driving me to develop effective solutions to modern cyber threats — solutions that work with business goals, not against them. My forward-thinking approach to digital defence focuses on building adaptive security environments that aren't just reactive but resilient.
-                        </p>
-                        <div class="about-stats">
-                            <div class="stat-item">
-                                <span class="stat-number">2</span>
-                                <span class="stat-label">Degree Programs</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-number">2</span>
-                                <span class="stat-label">Cyber Certifications</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-number">3</span>
-                                <span class="stat-label">Years Work Experience</span>
-                            </div>
-                        </div>
+                        <p>A forward-thinking Cyber Security specialist with a Master's degree, and a portfolio-defining dissertation project in cryptographic imagery verification. The project, titled "AuthMark", demonstrates an exceptional ability to architect, develop, and validate a complete security solution in Python to counter the rapidly evolving threat of synthetically generated media.</p>
                         
-                        <div class="personality-traits">
-                            <h3 style="margin: 2rem 0 1rem 0; color: var(--primary-color);">Personality Traits</h3>
-                            <div class="traits-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
-                                <div class="trait-item" style="background: var(--bg-card); padding: 1rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1);">
-                                    <h4 style="color: var(--accent-color); margin-bottom: 0.5rem;"><i class="fas fa-fist-raised"></i> Tenacious</h4>
-                                    <p style="font-size: 0.9rem; color: var(--text-secondary);">I operate well in noisy, chaotic environments and stay focused under pressure.</p>
-                                </div>
-                                <div class="trait-item" style="background: var(--bg-card); padding: 1rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1);">
-                                    <h4 style="color: var(--accent-color); margin-bottom: 0.5rem;"><i class="fas fa-eye"></i> Observant</h4>
-                                    <p style="font-size: 0.9rem; color: var(--text-secondary);">I notice patterns, changes, or inconsistencies that others often miss.</p>
-                                </div>
-                                <div class="trait-item" style="background: var(--bg-card); padding: 1rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1);">
-                                    <h4 style="color: var(--accent-color); margin-bottom: 0.5rem;"><i class="fas fa-exchange-alt"></i> Adaptable</h4>
-                                    <p style="font-size: 0.9rem; color: var(--text-secondary);">I don't freeze up when things change — I pivot and solve problems quickly.</p>
-                                </div>
-                                <div class="trait-item" style="background: var(--bg-card); padding: 1rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1);">
-                                    <h4 style="color: var(--accent-color); margin-bottom: 0.5rem;"><i class="fas fa-search"></i> Curious</h4>
-                                    <p style="font-size: 0.9rem; color: var(--text-secondary);">If I don't know something, I need to understand it — and I won't stop until I do.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-visual">
-                        <div class="about-image">
-                            <div class="image-placeholder">
-                                <i class="fas fa-shield-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="section">
-            <div class="container">
-                <h2 class="section-title">Work Experience</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <div class="company-logo">
-                                <img src="assets/images/logos/sainsburys-logo-png-transparent.png" alt="Sainsbury's" class="logo-img">
-                            </div>
-                            <h3 class="job-title">Trading Assistant</h3>
-                            <h4 class="company-name">Sainsbury's</h4>
-                            <p class="job-period">September 2022 - Present</p>
-                            <p class="job-description">
-                                Working in a central Birmingham store has sharpened my multitasking, pattern recognition, and ability to solve problems on the fly. I've adapted to rapid changes in stock, customer needs, and in-store systems — from Microsoft Cloud integrations to automated till operations.
-                            </p>
-                            <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
-                                <li>Developed a reputation for staying calm and productive in high-pressure situations</li>
-                                <li>Supported shop security and stock integrity by staying alert to unusual activity</li>
-                                <li>Helped the team exceed sales targets by over 35% through smart product placement</li>
-                                <li>Gained familiarity with internal cloud-based systems that mirror enterprise security tools</li>
-                            </ul>
-                            <div class="job-skills">
-                                <span class="skill-tag">Microsoft 365</span>
-                                <span class="skill-tag">Cloud Systems</span>
-                                <span class="skill-tag">Security Awareness</span>
-                                <span class="skill-tag">Team Leadership</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <div class="company-logo">
-                                <img src="assets/images/logos/Argos_logo.svg.png" alt="Argos" class="logo-img">
-                            </div>
-                            <h3 class="job-title">Customer Advisor</h3>
-                            <h4 class="company-name">Argos</h4>
-                            <p class="job-period">July 2021 - September 2022</p>
-                            <p class="job-description">
-                                In this fast-paced digital retail setting, I learned to think quickly, stay organised, and meet a wide range of customer expectations.
-                            </p>
-                            <ul style="color: var(--text-secondary); margin: 1rem 0; padding-left: 1.5rem;">
-                                <li>Managed inventory and delivery coordination using digital stock systems</li>
-                                <li>Became confident with digital tools, terminals, and error handling under pressure</li>
-                                <li>Improved emotional intelligence and built the ability to de-escalate situations respectfully</li>
-                                <li>Grew more confident communicating technical solutions clearly</li>
-                            </ul>
-                            <div class="job-skills">
-                                <span class="skill-tag">Digital Systems</span>
-                                <span class="skill-tag">Problem Solving</span>
-                                <span class="skill-tag">Communication</span>
-                                <span class="skill-tag">Customer Service</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <div class="company-logo">
-                                <img src="assets/images/logos/wyre-forest-logo-favicon-310-x-310.png" alt="Wyre Forest District Council" class="logo-img">
-                            </div>
-                            <h3 class="job-title">IT Help Desk Support</h3>
-                            <h4 class="company-name">Wyre Forest District Council</h4>
-                            <p class="job-period">July 2017</p>
-                            <p class="job-description">
-                                Though brief, this early role planted the seed. I supported internal staff with hardware, workspace and minor server issues. It was my first exposure to technical troubleshooting in a live environment — and it confirmed that this was the field for me.
-                            </p>
-                            <div class="job-skills">
-                                <span class="skill-tag">Hardware Support</span>
-                                <span class="skill-tag">Troubleshooting</span>
-                                <span class="skill-tag">Server Issues</span>
-                                <span class="skill-tag">Technical Support</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Education Section -->
-        <section id="education" class="section">
-            <div class="container">
-                <h2 class="section-title">Education & Certifications</h2>
-                <div class="education-grid">
-                    <div class="education-card">
-                        <div class="education-logo">
-                            <img src="assets/images/logos/Birmingham_City_University_logo_with_white_tiger.jpg" alt="Birmingham City University" class="education-logo-img">
-                        </div>
-                        <div class="education-content">
-                            <h3 class="degree-title">Master of Science in Computer Science</h3>
-                            <h4 class="institution-name">Birmingham City University (BCU)</h4>
-                            <p class="education-period">September 2024 - August 2025</p>
-                            <p class="education-description">
-                                Currently pursuing advanced studies in computer science with a focus on cybersecurity, building upon my undergraduate foundation with specialized knowledge in information security and advanced computing concepts.
-                            </p>
-                            <div class="education-subjects">
-                                <span class="subject-tag">Cybersecurity</span>
-                                <span class="subject-tag">Advanced Computing</span>
-                                <span class="subject-tag">Information Security</span>
-                                <span class="subject-tag">Research Methods</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="education-card">
-                        <div class="education-logo">
-                            <img src="assets/images/logos/Birmingham_City_University_logo_with_white_tiger.jpg" alt="Birmingham City University" class="logo-img">
-                        </div>
-                        <div class="education-content">
-                            <h3 class="degree-title">Bachelor of Science in Computer Science</h3>
-                            <h4 class="institution-name">Birmingham City University (BCU)</h4>
-                            <p class="education-period">September 2021 - July 2024</p>
-                            <p class="education-description">
-                                Completed with Honours, achieving a 2:2 classification. Comprehensive study of computer science fundamentals including algorithms, data structures, software engineering, and security principles.
-                            </p>
-                            <div class="education-subjects">
-                                <span class="subject-tag">Algorithms</span>
-                                <span class="subject-tag">Data Structures</span>
-                                <span class="subject-tag">Software Engineering</span>
-                                <span class="subject-tag">Network Security</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Certifications Section -->
-                    <div style="margin-top: 2rem;">
-                        <h3 style="text-align: center; color: var(--primary-color); margin-bottom: 1.5rem; font-size: 1.5rem;">Professional Certifications</h3>
+                        <p>I'm eager to apply my practical experience in secure development, steganography, and wider threat analysis, and mitigation, to help organisations develop resilient, and adaptive, defences against modern cyber threats.</p>
                         
-                        <div class="certification-card" style="background: var(--bg-card); padding: 1.5rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 1rem;">
-                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-                                <div style="width: 50px; height: 50px; background: var(--gradient-secondary); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">MC</div>
-                                <div>
-                                    <h4 style="color: var(--text-primary); margin: 0;">Mastercard Cyber Security Virtual Experience</h4>
-                                    <p style="color: var(--text-muted); margin: 0; font-size: 0.9rem;">July 2025 • Forage Platform</p>
-                                </div>
-                            </div>
-                            <ul style="color: var(--text-secondary); margin: 0; padding-left: 1.5rem;">
-                                <li>Served as an analyst on Mastercard's Security Awareness Team</li>
-                                <li>Identified and reported security threats such as phishing</li>
-                                <li>Analyzed business areas needing robust security training</li>
-                                <li>Implemented training courses and security procedures</li>
-                            </ul>
-                        </div>
-
-                        <div class="certification-card" style="background: var(--bg-card); padding: 1.5rem; border-radius: 0.75rem; border: 1px solid rgba(255,255,255,0.1);">
-                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-                                <div style="width: 50px; height: 50px; background: var(--gradient-success); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">AIG</div>
-                                <div>
-                                    <h4 style="color: var(--text-primary); margin: 0;">AIG Shields Up: Cyber Security Virtual Experience</h4>
-                                    <p style="color: var(--text-muted); margin: 0; font-size: 0.9rem;">July 2025 • Forage Platform</p>
-                                </div>
-                            </div>
-                            <ul style="color: var(--text-secondary); margin: 0; padding-left: 1.5rem;">
-                                <li>Completed cybersecurity threat analysis simulation for Cyber Defence Unit</li>
-                                <li>Researched and analyzed reported vulnerabilities</li>
-                                <li>Drafted clear communication for vulnerability remediation</li>
-                                <li>Utilized Python skills for ethical hacking and security scripting</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="section">
-            <div class="container">
-                <h2 class="section-title">Technical Skills</h2>
-                <div class="skills-container">
-                    <div class="skills-category">
-                        <h3 class="category-title">Security Engineering</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <i class="fab fa-linux"></i>
-                                <span>Linux Distros</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-shield-alt"></i>
-                                <span>Penetration Testing</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-lock"></i>
-                                <span>Encryption</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-network-wired"></i>
-                                <span>Network Security</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skills-category">
-                        <h3 class="category-title">Cloud Security</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <i class="fab fa-aws"></i>
-                                <span>AWS IAM</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-server"></i>
-                                <span>EC2</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-cloud"></i>
-                                <span>CloudFront</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fab fa-microsoft"></i>
-                                <span>Azure Basics</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skills-category">
-                        <h3 class="category-title">Scripting & Automation</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <i class="fab fa-python"></i>
-                                <span>Python</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-terminal"></i>
-                                <span>Bash</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-robot"></i>
-                                <span>Automation</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-code"></i>
-                                <span>Scripting</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skills-category">
-                        <h3 class="category-title">Vulnerability Management</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <i class="fas fa-bug"></i>
-                                <span>Kali Linux</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-search"></i>
-                                <span>Wireshark</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-radar-chart"></i>
-                                <span>Nmap</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-exclamation-triangle"></i>
-                                <span>Threat Analysis</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skills-category">
-                        <h3 class="category-title">Communication & Leadership</h3>
-                        <div class="skills-grid">
-                            <div class="skill-item">
-                                <i class="fab fa-microsoft"></i>
-                                <span>Microsoft 365</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-users"></i>
-                                <span>Team Leadership</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-comments"></i>
-                                <span>Communication</span>
-                            </div>
-                            <div class="skill-item">
-                                <i class="fas fa-handshake"></i>
-                                <span>Collaboration</span>
-                            </div>
+                        <div class="contact-info">
+                            <p><strong>Phone:</strong> (+44) 7476 449859</p>
+                            <p><strong>Email:</strong> <a href="mailto:mattpotts03@gmail.com">mattpotts03@gmail.com</a></p>
+                            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/matthew-potts2003/" target="_blank">matthew-potts2003</a></p>
+                            <p><strong>Location:</strong> Oldbury, West Midlands, UK</p>
                         </div>
                     </div>
                 </div>
@@ -490,188 +52,206 @@
         <!-- Projects Section -->
         <section id="projects" class="section">
             <div class="container">
-                <h2 class="section-title">Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-lock"></i>
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>AuthMark: Cryptographically-Verifiable Media Authentication</h3>
+                    <p class="project-date">September 2024 – August 2025</p>
+                    
+                    <p>I designed, and implemented, a novel and proactive system to directly address the "Erosion of Trust" in digital media, by providing a cryptographic link between the human author and their work.</p>
+                    
+                    <ul class="project-highlights">
+                        <li>Engineered a hybrid, Python-based system, that embeds a SHA-256 hashed, and a Ed25519 (EdDSA) digitally-signed payload into an image's Discrete Cosine Transform (DCT) mid-frequency coefficients.</li>
+                        <li>Achieved superior quantitative watermark imperceptibility, validated by an average Peak Signal-to-Noise Ratio (PSNR) of 47.06dB, and a Structural Similarity Index (SSIM) of 0.994 – far greater than the accepted industrial threshold of object imperceptibility.</li>
+                        <li>Built a robust framework resilient to common image manipulations, achieving 100% watermark recovery against JPEG compression down to a Quality Factor (QF) of 55%.</li>
+                        <li>Integrated a hierarchical AI detection workflow using "DMImageDetection", a model openly available on Hugging Face, to proactively mitigate the issue of undesired synthetic imagery watermarking.</li>
+                        <li>Deployed as a lightweight web application, with a comprehensive RESTful API, using Flask, and Flask-RESTX, prioritising accessibility, ease of integration, and hypothetical vast scalability to other web platforms with varying purpose and available computational resources.</li>
+                        <li>Validated the system's real-world efficacy through a ten-person blind study, whereby its 95.92% accuracy in identifying authentic media surpassed average human perception.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                
+                <div class="education-item">
+                    <div class="education-header">
+                        <div class="education-info">
+                            <h3>Birmingham City University</h3>
+                            <p class="degree">Master of Science in Computer Science With Honours</p>
+                            <p class="classification">Degree Classification: N/A*</p>
                         </div>
-                        <div class="project-content">
-                            <h3 class="project-title">AudiCrypt</h3>
-                            <p class="project-description">
-                                A comprehensive suite of file encryption tools that enables a network, regardless of 
-                                geographical size, to cryptographically verify and record file changes to a filesystem. 
-                                Ensures data integrity and protects against malpractice with robust security measures.
-                            </p>
-                            <div class="project-details" style="margin: 1rem 0; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 0.5rem;">
-                                <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0;">
-                                    <strong>Timeline:</strong> September 2023 – July 2024<br>
-                                    <strong>Platform:</strong> Cross-platform compatibility with all major Operating Systems
-                                </p>
-                            </div>
-                            <div class="project-tech">
-                                <span class="tech-tag">Python</span>
-                                <span class="tech-tag">Cryptography</span>
-                                <span class="tech-tag">File Systems</span>
-                                <span class="tech-tag">Security</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/pottsie283" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    View Code
-                                </a>
-                                <a href="#contact" class="project-link">
-                                    <i class="fas fa-envelope"></i>
-                                    Learn More
-                                </a>
-                            </div>
+                        <div class="education-meta">
+                            <img src="assets/images/logos/Birmingham_City_University_logo_with_white_tiger.jpg" alt="Birmingham City University" class="university-logo">
+                            <p class="location">Birmingham, United Kingdom</p>
+                            <p class="dates">September 2024 – August 2025</p>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Cybersecurity Portfolio</h3>
-                            <p class="project-description">
-                                Collection of cybersecurity projects, scripts, and tools developed during academic studies 
-                                and professional certifications. Includes penetration testing tools, vulnerability 
-                                assessments, and security automation scripts.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Python</span>
-                                <span class="tech-tag">Bash</span>
-                                <span class="tech-tag">Kali Linux</span>
-                                <span class="tech-tag">Penetration Testing</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="https://github.com/pottsie283" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                    View Portfolio
-                                </a>
-                                <a href="#contact" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Contact Me
-                                </a>
-                            </div>
-                        </div>
+                    <div class="dissertation">
+                        <h4>Dissertation:</h4>
+                        <p><em>Securing Digital Trust: Cryptographically-Verifiable Watermarking for Human-Authored Digital Media Authentication</em></p>
                     </div>
+                </div>
 
-                    <div class="project-card">
-                        <div class="project-image">
-                            <i class="fas fa-graduation-cap"></i>
+                <div class="education-item">
+                    <div class="education-header">
+                        <div class="education-info">
+                            <h3>Birmingham City University</h3>
+                            <p class="degree">Bachelor of Science in Computer Science With Honours</p>
+                            <p class="classification">Degree Classification: 2:2</p>
                         </div>
-                        <div class="project-content">
-                            <h3 class="project-title">Academic Research</h3>
-                            <p class="project-description">
-                                Currently pursuing advanced research in cybersecurity as part of MSc Computer Science 
-                                program. Focus areas include modern threat analysis, security framework development, 
-                                and adaptive defense mechanisms.
-                            </p>
-                            <div class="project-tech">
-                                <span class="tech-tag">Research</span>
-                                <span class="tech-tag">Cybersecurity</span>
-                                <span class="tech-tag">Threat Analysis</span>
-                                <span class="tech-tag">Academic Writing</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#education" class="project-link">
-                                    <i class="fas fa-book"></i>
-                                    Education
-                                </a>
-                                <a href="#contact" class="project-link">
-                                    <i class="fas fa-envelope"></i>
-                                    Inquire
-                                </a>
-                            </div>
+                        <div class="education-meta">
+                            <img src="assets/images/logos/Birmingham_City_University_logo_with_white_tiger.jpg" alt="Birmingham City University" class="university-logo">
+                            <p class="location">Birmingham, United Kingdom</p>
+                            <p class="dates">September 2021 – July 2024</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="section">
+        <!-- Work Experience Section -->
+        <section id="experience" class="section">
             <div class="container">
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <h3>Let's Connect</h3>
-                        <p>
-                            I'm actively seeking opportunities in cybersecurity and would love to discuss how 
-                            my skills and passion for digital defence can contribute to your organization's security posture. 
-                            Feel free to reach out for collaborations, opportunities, or just to connect!
-                        </p>
-                        <div class="contact-methods">
-                            <a href="mailto:mattpotts03@gmail.com" class="contact-method">
-                                <i class="fas fa-envelope"></i>
-                                <span>mattpotts03@gmail.com</span>
-                            </a>
-                            <a href="tel:+447476449859" class="contact-method">
-                                <i class="fas fa-phone"></i>
-                                <span>(+44) 7476 449859</span>
-                            </a>
-                            <a href="https://www.linkedin.com/in/matthew-potts2003/" target="_blank" class="contact-method">
-                                <i class="fab fa-linkedin"></i>
-                                <span>LinkedIn Profile</span>
-                            </a>
-                            <a href="https://github.com/pottsie283" target="_blank" class="contact-method">
-                                <i class="fab fa-github"></i>
-                                <span>GitHub Profile</span>
-                            </a>
-                            <div class="contact-method" style="cursor: default;">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>Oldbury, West Midlands, UK</span>
-                            </div>
+                <h2>Work Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3>Sainsbury's</h3>
+                            <p class="role">Trading Assistant</p>
+                        </div>
+                        <div class="experience-meta">
+                            <img src="assets/images/logos/sainsburys-logo-png-transparent.png" alt="Sainsbury's" class="company-logo">
+                            <p class="location">Birmingham, United Kingdom</p>
+                            <p class="dates">September 2022 – Present</p>
                         </div>
                     </div>
-                    <div class="contact-form">
-                        <form class="form">
-                            <div class="form-group">
-                                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                                <label for="name">Name</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                                <label for="email">Email</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                                <label for="subject">Subject</label>
-                            </div>
-                            <div class="form-group">
-                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                                <label for="message">Message</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">
-                                <i class="fas fa-paper-plane"></i>
-                                Send Message
-                            </button>
-                        </form>
+                    <ul class="experience-highlights">
+                        <li>Sharpened pattern recognition, and rapid problem-solving in a high-pressure, fast-paced retail environment.</li>
+                        <li>Upheld security protocols and maintained stock integrity by vigilantly monitoring for unusual activity.</li>
+                        <li>Adapted quickly to new in-store technologies, including Microsoft Cloud integrations, and automated systems.</li>
+                        <li>Maintained composure and productivity during peak operational periods, effectively managing fluctuating stock, and customer demands.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3>Argos</h3>
+                            <p class="role">Customer Advisor</p>
+                        </div>
+                        <div class="experience-meta">
+                            <img src="assets/images/logos/Argos_logo.svg.png" alt="Argos" class="company-logo">
+                            <p class="location">Bromsgrove, United Kingdom</p>
+                            <p class="dates">July 2021 – September 2022</p>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Maintained accurate stock levels using digital inventory systems, leading to streamlined order fulfilment and enhanced customer satisfaction.</li>
+                        <li>Became proficient with digital tools, and terminal's, effectively troubleshooting errors under pressure to ensure smooth customer transactions.</li>
+                        <li>Enhanced communication skills by clearly explaining technical solutions to a non-technical audience.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3>Wyre Forest District Council</h3>
+                            <p class="role">IT Help Desk Support</p>
+                        </div>
+                        <div class="experience-meta">
+                            <img src="assets/images/logos/wyre-forest-logo-favicon-310-x-310.png" alt="Wyre Forest District Council" class="company-logo">
+                            <p class="location">Stourport-on-Severn, United Kingdom</p>
+                            <p class="dates">July 2017</p>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Provided first-line technical support to internal staff, resolving hardware, workspace, and minor server issues in a live professional environment.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Cyber Security Domains</h3>
+                        <ul>
+                            <li>Penetration Testing</li>
+                            <li>Digital Forensics</li>
+                            <li>Steganography (DCT-based)</li>
+                            <li>Vulnerability Management</li>
+                            <li>Cryptography (Encryption, Digital Signatures, Hashing)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Programming & Automation</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Bash</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Frameworks, Libraries, and Tools</h3>
+                        <ul>
+                            <li>Flask, RESTful API's</li>
+                            <li>Git, GitHub</li>
+                            <li>OpenCV, NumPy</li>
+                            <li>Wireshark, Nmap</li>
+                            <li>Kali Linux, Microsoft 365</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Cloud Platforms</h3>
+                        <ul>
+                            <li>AWS (IAM, EC2, CloudFront)</li>
+                            <li>Azure (Basics)</li>
+                        </ul>
                     </div>
                 </div>
+                
+                <div class="certifications">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Mastercard Cyber Security Virtual Experience Program – Forage – July 2025</li>
+                        <li>AiG Shields Up: Cyber Security Virtual Experience Program – Forage – July 2025</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section">
+            <div class="container">
+                <h2>Blog</h2>
+                <p>Coming soon - I'll be sharing insights about cybersecurity, digital forensics, and my ongoing projects.</p>
+            </div>
+        </section>
+
+        <!-- Legal Section -->
+        <section id="legal" class="section">
+            <div class="container">
+                <h2>Legal</h2>
+                <p><strong>References:</strong> Available upon request.</p>
+                <p><em>* Degree not received yet, currently undertaking as of July 2025</em></p>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Matthew Potts. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://github.com/pottsie283" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/matthew-potts2003/" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="mailto:mattpotts03@gmail.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-            </div>
+            <p>&copy; 2025 Matthew Potts. All rights reserved.</p>
         </div>
     </footer>
 
