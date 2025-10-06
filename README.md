@@ -1,63 +1,120 @@
-# Matthew Potts - Portfolio Website
+# Matthew Potts - Cybersecurity Professional Portfolio
 
-A modern, animated portfolio website showcasing my professional experience, education, and technical skills in cybersecurity and software development.
+A clean, professional portfolio website showcasing my expertise as an aspiring cybersecurity specialist, featuring my advanced dissertation project, educational background, and professional experience.
 
 ## Purpose
 
-This website serves as my digital portfolio, presenting my career journey from retail operations to cybersecurity specialization. It highlights my work experience, academic achievements, technical skills, and personal projects in an interactive and visually appealing format.
+This website serves as my professional portfolio, highlighting my journey in cybersecurity with a focus on my groundbreaking AuthMark project - a cryptographically-verifiable media authentication system. It presents my academic achievements, work experience, and technical skills in a clear, accessible format designed for potential employers and collaborators in the cybersecurity field.
 
 ## How It Was Built
 
 ### Technology Stack
-- **Frontend**: Pure HTML5, CSS3, and vanilla JavaScript
-- **Styling**: Modern CSS with custom properties, flexbox, and grid layouts
-- **Animations**: CSS keyframes and JavaScript-powered transitions
-- **Icons**: Font Awesome icon library
-- **Fonts**: Google Fonts (Poppins)
+- **Frontend**: Clean HTML5, modern CSS3, and lightweight JavaScript
+- **Styling**: Professional CSS with flexbox layouts and responsive design
+- **Design Philosophy**: Minimalist, clean aesthetic with white background and black text
+- **Navigation**: Fixed top navigation with smooth scrolling
 
 ### Design Approach
-- **Mobile-first responsive design** ensuring optimal viewing on all devices
-- **Purple gradient color scheme** for a modern, professional aesthetic
-- **Smooth section transitions** with animated loading screens
-- **Accessibility-focused** development following WCAG guidelines
-- **Performance optimized** with service worker for offline functionality
+- **Professional minimalist design** prioritizing readability and accessibility
+- **Clean white background** with black text for maximum clarity
+- **Fixed navigation bar** with clear section separation
+- **Mobile-responsive design** ensuring optimal viewing on all devices
+- **Fast loading** with optimized, lightweight code
+- **Accessibility-focused** development for universal usability
 
 ### Key Features
-- Interactive navigation with smooth scrolling
-- Animated timeline for work experience
-- Skills visualization with progress indicators
-- Project showcase with live demo links
-- Contact form integration
-- Progressive Web App capabilities
+- Fixed navigation with smooth section scrolling
+- Professional presentation of AuthMark dissertation project
+- Comprehensive education section with university logos
+- Work experience timeline with company branding
+- Technical skills categorization for cybersecurity domains
+- Certification highlights and achievements
+- Contact information and professional links
+
+## Website Structure
+
+### Navigation Sections
+- **About Me**: Professional summary and contact information
+- **Projects**: Featured AuthMark project with detailed technical specifications
+- **Education**: Master's and Bachelor's degrees from Birmingham City University
+- **Work Experience**: Detailed employment history with company logos
+- **Skills**: Cybersecurity domains, programming languages, and technical tools
+- **Blog**: Placeholder for future cybersecurity insights and articles
+- **Legal**: References and degree status information
+
+### Featured Project: AuthMark
+The website prominently features my portfolio-defining dissertation project:
+- **Cryptographically-Verifiable Media Authentication System**
+- **Python-based hybrid watermarking solution**
+- **SHA-256 hashing and Ed25519 digital signatures**
+- **DCT-based steganography implementation**
+- **95.92% accuracy in blind study validation**
+- **RESTful API with Flask framework**
 
 ## Deployment
 
-The website is deployed on **GitHub Pages** and automatically updates when changes are pushed to the main branch. It includes SEO optimization, custom 404 handling, and offline support through service worker caching.
+The website is deployed on **GitHub Pages** at `https://pottsie283.github.io/` and automatically updates when changes are pushed to the main branch. The site includes:
+- SEO optimization for cybersecurity-related searches
+- Responsive design for all device types
+- Fast loading times with minimal dependencies
+- Professional presentation suitable for job applications
+
+## Technical Highlights
+
+### Cybersecurity Focus
+- **Penetration Testing** and **Digital Forensics** expertise
+- **Steganography** and **Cryptography** specialization
+- **Vulnerability Management** and **Network Security**
+- **Cloud Security** (AWS, Azure) experience
+- **Python** and **Bash** automation skills
+
+### Professional Experience
+- **Sainsbury's**: Trading Assistant with security protocol experience
+- **Argos**: Customer Advisor with digital systems proficiency
+- **Wyre Forest District Council**: IT Help Desk Support experience
+
+### Education & Certifications
+- **MSc Computer Science** (In Progress) - Birmingham City University
+- **BSc Computer Science with Honours** (2:2) - Birmingham City University
+- **Mastercard Cyber Security Virtual Experience** - Forage
+- **AiG Shields Up Cyber Security Virtual Experience** - Forage
 
 ## Future Development Plans
 
-### Short Term
-- **Dark/Light Mode Toggle**: User preference for theme switching
-- **Blog Section**: Technical articles and cybersecurity insights
-- **Enhanced Animations**: More sophisticated scroll-triggered effects
-- **Performance Metrics**: Integration with Google Analytics
+### Immediate Priorities
+- **Blog Section**: Technical articles on cybersecurity trends and insights
+- **Project Gallery**: Additional cybersecurity projects and demonstrations
+- **Enhanced Documentation**: Detailed case studies of security implementations
 
 ### Medium Term
-- **CMS Integration**: Dynamic content management for easier updates
-- **Multi-language Support**: Internationalization for broader reach
-- **Advanced Contact Forms**: Integration with email services and form validation
-- **Portfolio Filtering**: Category-based project filtering and search
+- **Interactive Demonstrations**: AuthMark system showcases and examples
+- **Research Publications**: Academic papers and conference presentations
+- **Professional Network**: Industry connections and collaboration opportunities
 
 ### Long Term
-- **Backend Integration**: User authentication and dynamic content
-- **AI Chatbot**: Automated visitor interaction and FAQ handling
-- **Real-time Updates**: Live project status and availability indicators
-- **Advanced Analytics**: Detailed visitor insights and engagement metrics
+- **Open Source Contributions**: Public repositories of cybersecurity tools
+- **Educational Content**: Training materials and cybersecurity resources
+- **Industry Recognition**: Speaking engagements and thought leadership
 
-## Contact
+## Contact & Professional Links
 
-Visit the live website to get in touch through the contact form or connect via LinkedIn and GitHub.
+- **Email**: mattpotts03@gmail.com
+- **Phone**: (+44) 7476 449859
+- **LinkedIn**: [matthew-potts2003](https://www.linkedin.com/in/matthew-potts2003/)
+- **Location**: Oldbury, West Midlands, UK
+
+## About the AuthMark Project
+
+AuthMark represents the cutting edge of digital media authentication, addressing the critical "Erosion of Trust" in our digital age. Key achievements include:
+
+- **Superior Imperceptibility**: PSNR of 47.06dB and SSIM of 0.994
+- **Robust Watermarking**: 100% recovery rate against JPEG compression (QF 55%)
+- **AI Integration**: DMImageDetection workflow for synthetic media detection
+- **Scalable Architecture**: RESTful API design for web platform integration
+- **Real-world Validation**: Outperformed human perception in blind studies
 
 ---
 
-Built with ❤️ and lots of coffee ☕
+**Building secure digital futures through innovative cybersecurity solutions** 🔐
+
+*References available upon request*
